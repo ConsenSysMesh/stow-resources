@@ -1,4 +1,4 @@
-# Using etherscan for Linnia Events
+# Using etherscan for Stow Events
 
 # Intro
 
@@ -17,8 +17,8 @@ Transaction Receipt Event Logs are known as *events*.
 
 Ethereum smart contract *Events* act as logs during transaction execution. Etherscan has a helpful tab with Event data (see below).
 
-# etherscan for Linnia Events  on the Ropsten testnet 
+# etherscan for Stow Events  on the Ropsten testnet 
 
-The following is an example of a *Linnia* event recorded in etherscan.
+The following is an example of a *Stow* event recorded in etherscan.
 
-![linnia Event Etherscan](./assets/linniaEventEtherscan.png)
+![Stow Event Etherscan](./assets/linniaEventEtherscan.png)
