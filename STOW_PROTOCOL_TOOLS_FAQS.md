@@ -1,4 +1,4 @@
-<img src="./assets/stow-logo.jpg" width="400" height="400" />
+<img src="./assets/stow-logo.ng" width="400" height="400" />
 
 # Stow Protocol Tools FAQs
 
