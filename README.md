@@ -1,4 +1,6 @@
-<img src="./assets/stow-logo.png" width="400" height="400" />
+# The Stow Protocol
+
+<img src="./assets/stow-logo.png" width="300" height="300" />
 
 This repository acts as your gateway into all things Stow. Here, you can find libraries and components written in JavaScript that you can use to build your own Stow-powered applications.
 

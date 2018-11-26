@@ -1,5 +1,3 @@
-<img src="./assets/stow-logo.ng" width="400" height="400" />
-
 # Stow Protocol Tools FAQs
 
 ### Explaining the Stow Protocol and the tools being built around it.
