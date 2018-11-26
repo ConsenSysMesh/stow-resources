@@ -2,7 +2,7 @@
 
 [Ethereum world computer](https://www.youtube.com/watch?v=j23HnORQXvs)
 
-[What is Linnia](https://www.youtube.com/watch?v=w0VskCpUKZ8)
+[What is Stow](https://www.youtube.com/watch?v=w0VskCpUKZ8)
 
 [What is Metamask](https://www.youtube.com/watch?v=6Gf_kRE4MJU)
 

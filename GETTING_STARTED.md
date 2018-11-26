@@ -1,10 +1,10 @@
 # Getting started
 
-Interacting with the Linnia requires a connection to the Ethereum network and a storage solution of your choice. If you follow this tutorial, you will be able to use the library to store files in either IPFS, a decentralized storage solution, or AWS S3.
+Interacting with the Stow Protocol requires a connection to the Ethereum network and a storage solution of your choice. If you follow this tutorial, you will be able to use the library to store files in either IPFS, a decentralized storage solution, or AWS S3.
 
 #### Choosing an Ethereum Network to Use
 
-[Ethereum](https://www.ethereum.org/) is a blockchain-based platform that allows for the operation of decentralized applications. Since the Linnia protocol is still a work in progress, we can test it by either connecting to the Ropsten Ethereum Testnet or use an application called Ganache to simulate an Ethereum network locally. You choose which network to connect to when you pass in the `web3` argument to the library constructor, like so:
+[Ethereum](https://www.ethereum.org/) is a blockchain-based platform that allows for the operation of decentralized applications. Since the Stow Protocol is still a work in progress, we can test it by either connecting to the Ropsten Ethereum Testnet or use an application called Ganache to simulate an Ethereum network locally. You choose which network to connect to when you pass in the `web3` argument to the library constructor, like so:
 
 ```javascript
 // local connection, since HttpProvider points to localhost
@@ -17,11 +17,11 @@ We strongly recommend starting your development locally with Ganache, then movin
 
 The other option we have for testing is to simulate an ethereum network locally. Our sister project Truffle has created a great tool called [Ganache](http://truffleframework.com/ganache) that allows us to do this. We will use the [CLI version](https://github.com/trufflesuite/ganache-cli).
 
-Our main repository, [https://github.com/ConsenSys/Linnia-Smart-Contracts](https://github.com/ConsenSys/Linnia-Smart-Contracts) includes a stable version of the CLI and a task to run it
+Our main repository, [https://github.com/ConsenSys/Stow-Smart-Contracts](https://github.com/ConsenSys/Stow-Smart-Contracts) includes a stable version of the CLI and a task to run it
 
 To install it, use:
 ```bash
-git clone https://github.com/ConsenSys/Linnia-Smart-Contracts
+git clone https://github.com/ConsenSys/Stow-Smart-Contracts
 npm install
 ```
 
@@ -32,7 +32,7 @@ npm run start
 ```
 To run your own simulated blockchain locally on port 7545!
 
-Now, to connect to the local blockchain, create this web3 object and pass it as the first argument to the linnia-js constructor:
+Now, to connect to the local blockchain, create this web3 object and pass it as the first argument to the stow-js constructor:
 
 ```javascript
 // local connection, since HttpProvider points to localhost
@@ -41,7 +41,7 @@ let web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:7545'))
 
 #### Ropsten Testnet
 
-The Ropsten Testnet is a clone of the Ethereum Testnet that allows us to deploy and test out our decentralized applications with no risk before deploying them on the Ethereum Mainnet. The Linnia team has already deployed a version of the Linnia Protocol smart contracts on this Testnet, so if you choose to use it, you already have half of the work done for you. On the flip side, **all interactions with these contracts are liable to be wiped out at any moment if the Linnia team redeploys.**
+The Ropsten Testnet is a clone of the Ethereum Testnet that allows us to deploy and test out our decentralized applications with no risk before deploying them on the Ethereum Mainnet. The Stow team has already deployed a version of the Stow Protocol smart contracts on this Testnet, so if you choose to use it, you already have half of the work done for you. On the flip side, **all interactions with these contracts are liable to be wiped out at any moment if the Stow team redeploys.**
 
 #### Registering for an Infura to connect to Ropsten
 
@@ -53,7 +53,7 @@ Once you do, Infura will send you an email with links to use to connect to Infur
 https://ropsten.infura.io/${YOUR_ACCESS_TOKEN}
 ```
 
-To connect to Ropsten when using linnia-js, create this web3 object and pass it as the first argument to the linnia-js constructor:
+To connect to Ropsten when using stow-js, create this web3 object and pass it as the first argument to the stow-js constructor:
 
 ```javascript
 // ropsten connection, since HttpProvider points to authenticated ropsten infura link
@@ -136,7 +136,7 @@ const response = await new Promise((resolve, reject) => {
 });
 ```
 
-If the request is successful, you then form the dataUri and create the Linnia record:
+If the request is successful, you then form the dataUri and create the stow record:
 
 ```javascript
 const dataUri = `https://${bucketName}.s3.amazonaws.com/${dataHash}`;

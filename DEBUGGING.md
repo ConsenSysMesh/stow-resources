@@ -1,10 +1,10 @@
-# Debugging Linnia
+# Debugging Stow
 
-Debugging is key to app development.  The following are three ways to debug your Linnia app.
+Debugging is key to app development.  The following are three ways to debug your Stow app.
 
 ## Debugging in the browser
 
-The browser-based javascript of Linnia based dapps can be debugged using the chrome dev tools.
+The browser-based javascript of Stow based dapps can be debugged using the chrome dev tools.
 
 See: https://developers.google.com/web/tools/chrome-devtools/javascript/
 
