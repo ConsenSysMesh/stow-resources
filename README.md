@@ -27,7 +27,7 @@ For every record, Stow Protocol stores Metadata. This Metadata is chosen by the 
 | Repository                                                                            | Description                                                        |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | [Stow Smart Contracts](https://github.com/ConsenSys/Stow-Smart-Contracts)         | Home of the Stow Protocol Smart Contracts                        |
-| [Stow Box](https://github.com/ConsenSys/linnia-box)                                 | React UI Starter Template that integrates smart contracts and IPFS |
+| [Stow Box](https://github.com/ConsenSys/stow-box)                                 | React UI Starter Template that integrates smart contracts and IPFS |
 
 #### Examples
 
