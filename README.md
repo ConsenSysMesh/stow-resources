@@ -33,7 +33,7 @@ For every record, Stow Protocol stores Metadata. This Metadata is chosen by the 
 
 | Repository                                                                            | Description                                                        |
 | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-|stow-example-policy (https://github.com/ConsenSys/linnia-example-policyr)|Example of a policy used for policy based permissions |
+|stow-example-policy (https://github.com/ConsenSys/linnia-example-policy)|Example of a policy used for policy based permissions |
 |stow-json-validator (https://github.com/ConsenSys/linnia-json-validator)| linnia-json-validator to be used for IRIS score oracles |
 
 #### Libraries
